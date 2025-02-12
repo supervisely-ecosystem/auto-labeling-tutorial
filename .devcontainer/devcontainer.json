@@ -1,0 +1,14 @@
+{
+    "name": "auto_labeling_tutorial_devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.black-formatter"
+            ]
+        }
+    }
+}
